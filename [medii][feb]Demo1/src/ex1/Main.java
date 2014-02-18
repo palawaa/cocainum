@@ -27,6 +27,14 @@ public class Main {
 //		System.out.println(id.title);
 		
 		Animei a = new Animei();
+		
+		Details det = new Details("Dr. Ogenki", "Weird dude", 69);
+		a.setDetails(det);
+		
+		a.setDetails(new Details("Narootoh", "Tito Maiorescu", 123));
+		
+		
+		System.out.println(a.getDetails().producer);
 //		a.title = "Buricho";
 	}
 
